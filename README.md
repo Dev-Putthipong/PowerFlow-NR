@@ -3,7 +3,7 @@ Created by Putthipong Niyomkitjakankul  | May 2024
 
 ***Disclaimer : This MATLAB Code was created out of the personal interest and is intended for educational purposes only. Please note that it may contain error.***
 
-*filename : [PowerFlowAnalysis_NR.m]*
+*filename : [PowerFlowAnalysis_NR.m](PowerFlowAnalysis_NR.m)*
 
 ## Program Input
 
