@@ -7,6 +7,8 @@ Created by Putthipong Niyomkitjakankul  | May 2024
 
 ## Program Input
 
+Import some test case data to MATLAB code, it includes
+
 **BusData** : This table contains information about each bus in the power system.
 *	Bus : This column identifies the number assigned to each bus. (Required)
 *	Type : This column specifies the type of bus. It can be: (Slack bus, PV bus and Load/PQ bus). (Required)
