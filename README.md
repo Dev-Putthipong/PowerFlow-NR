@@ -87,7 +87,7 @@ and prompt you for a similar fix/don't fix decision. Once the program successful
 and you can see the results.
 
 ## Noted
+* ***I downloaded power system test case data from the University of Washington Power Systems Test Case Archive ([UW Power Systems Test Case Archive](https://labs.ece.uw.edu/pstca/)). I have formatted the data for use in my code verification process. This is for educational purposes only. Please note that the formatted data which I provided may contain errors during the formatting process.***
 *	You can adjust S_base, tolerance and initial guess for NaN in code editor
-*	For data test case that retrieved from [UW Homepage](https://labs.ece.uw.edu/pstca/), I provide in folder Data Test Case. 
 *	To import your data, please keep the original names of your data including both table and column names.
 *	For easier organization, I recommend using Excel to prepare your data before importing.
