@@ -51,27 +51,27 @@ The program provides results in two ways: Workspace and Command Prompt
 
 **I_line_flow** : This table shows the current flowing through each branch (using equivalent pi model) in the network. It includes:
 *	i, j : These 2 columns show index of bus number
-* Ii0, Ij0 : These 2 columns show current flow out from bus i to ground and bus j to ground, respectively.
-*	Iij, Iji : These 2 columns show current flow out from bus i to bus j and bus j to bus i, respectively.
-*	Iij_line = Iij – Ii0 and Iji_line = Iji – Ij0
-*	for phase shifter, it will show only Iij and Iji
+* Ii0, Ij0 : These 2 columns show current flow out from bus i to ground and bus j to ground, respectively. (per unit)
+*	Iij, Iji : These 2 columns show current flow out from bus i to bus j and bus j to bus i, respectively. (per unit)
+*	Iij_line = Iij – Ii0 and Iji_line = Iji – Ij0 (per unit)
+*	for phase shifter, it will show only Iij and Iji 
 
 **S_line_flow** : This table shows the complex power flowing through each branch 
 *	i, j : These 2 columns show index of bus number
-*	Si0, Sj0 : These 2 columns show complex power flow out from bus i to ground and bus j to ground, respectively.
-*	Sij, Sji : These 2 columns show complex power flow out from bus i to bus j and bus j to bus i, respectively.
-*	Sij_line = Sij – Si0 and Sji_line = Sji – Sj0
-*	Sij_line+Sji_line 
-*	Si0+Sj0 : total complex power flow to ground (For line, It is total line charging)
-*	Total_loss : total complex power loss in the branch
+*	Si0, Sj0 : These 2 columns show complex power flow out from bus i to ground and bus j to ground, respectively. (MW & Mvar)
+*	Sij, Sji : These 2 columns show complex power flow out from bus i to bus j and bus j to bus i, respectively. (MW & Mvar)
+*	Sij_line = Sij – Si0 and Sji_line = Sji – Sj0 (MW & Mvar)
+*	Sij_line+Sji_line (MW & Mvar)
+*	Si0+Sj0 : total complex power flow to ground (For line, It is total line charging) (MW & Mvar)
+*	Total_loss : total complex power loss in the branch (MW & Mvar)
 *	for phase shifter, it will show only Sij, Sji and Total_loss
 
 **Summary_line_flow** : This table provides summary of power flow of each branch in network (reduced form of S_line_flow)
 *	i, j : These 2 columns show index of bus number
-*	Pij, Pji : These 2 columns show real power flow out bus i to bus j and bus j to bus i, respectively.
-*	Qij, Qji : These 2 columns show reactive power flow out bus i to bus j and bus j to bus i, respectively.
-*	P_loss : These 2 columns show total real power loss in the branch
-*	Q_loss : These 2 columns show total reactive power loss in the branch
+*	Pij, Pji : These 2 columns show real power flow out bus i to bus j and bus j to bus i, respectively. (MW)
+*	Qij, Qji : These 2 columns show reactive power flow out bus i to bus j and bus j to bus i, respectively. (Mvar)
+*	P_loss : These 2 columns show total real power loss in the branch (MW)
+*	Q_loss : These 2 columns show total reactive power loss in the branch (Mvar)
 
 All tables above, last row of table is total of each column.
 
