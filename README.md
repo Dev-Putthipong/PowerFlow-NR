@@ -41,7 +41,7 @@ The program provides results in two ways: Workspace and Command Prompt
 **Bus Information**: This table summarizes the state of each bus in the power system after convergence. It includes:
 *	No_Bus : This column shows bus number
 *	V : This column shows bus voltage magnitude (per unit)
-*	Phase : This column shows voltage phase angle (radians)
+*	Phase : This column shows voltage phase angle (degree)
 *	P_gen : This column shows real power generation (MW)
 *	Q_gen : This column shows reactive power generation (Mvar)
 *	P_load : This column shows real power load (MW)
