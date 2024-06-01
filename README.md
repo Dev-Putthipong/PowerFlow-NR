@@ -21,8 +21,8 @@ Import some test case data to MATLAB code, it includes
 *	Qinjected : This column can be ignored (approximate value Q injected by shunt susceptance B) 
 *	G : This column specifies the shunt conductance at the bus (Required).
 *	B : This column specifies the shunt susceptance at the bus (Required).
-*	Qmax : This column specifies the maximum reactive power generation limit for the generator (in Mvar) (Required for PV buses).
-*	Qmin : This column specifies the minimum reactive power generation limit for the generator (in Mvar) (Required for PV buses).
+*	Qmax : This column specifies the maximum reactive power generation limit for the generator (in Mvar) (Required for PV buses, other types can be assigned NaN or 0).
+*	Qmin : This column specifies the minimum reactive power generation limit for the generator (in Mvar) (Required for PV buses, other types can be assigned NaN or 0).
 
 **BranchData** : This table contains information about the branches (lines and transformers) connecting the buses in the power system.
 *	bus_i – bus_j : These 2 columns identify the two buses (by their numbers) that a branch connects. (Required)
